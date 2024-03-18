@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
     margin: 0px;
@@ -25,7 +26,7 @@ body {
     background: #ffffff;
     max-width: 800px;
     margin: 50px auto;
-    height: 1250px;
+    height: auto;
     padding: 40px;
     box-shadow: 0 2px 20px #000003
 }
@@ -62,11 +63,14 @@ h1 {
 .left p{
     line-height: 2;
     font-family: sans-serif;
+    
 }
 .left ul li{
     line-height: 2;
+    
+   
 }
-h2{
+h2 {
     background: #00b6c4;
     padding: 15px;
     color: #fff;
@@ -110,3 +114,11 @@ h3 {
     font-weight: 100;
     font-family: sans-serif;
 }
+@media screen and (min-width: 480px) {
+    .container{
+        width: 100%;
+        height: auto;
+        background-color: lightgreen;
+
+    }
+  }
